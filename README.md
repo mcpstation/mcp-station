@@ -1,9 +1,12 @@
 # MCP Station
 
-An independent, machine-readable directory of remote MCP servers from the Official MCP Registry, with their observed operational state, checked daily.
+Check remote MCP servers before you connect them, and see what changed in the servers you already use.
 
+MCP Station is an independent, machine-readable directory of the remote MCP servers in the Official MCP Registry, with their observed operational state, checked daily.
+
+- Before connecting: `preflight` returns the latest daily check, authentication, changes in the last 7 days and matching listings for 1 to 10 servers.
+- After connecting: changes are recorded with before and after values: tools added or removed, new destructive tools, schema and description changes, authentication, versions, HTTPS.
 - Every remote MCP server in the Official MCP Registry is checked the same way once a day: reachable or not, authentication, MCP version, response time, tool list and tool definition size. Tools are listed, never executed.
-- Changes are recorded with before and after values: tools added or removed, schema and description changes, authentication, versions, HTTPS.
 - Daily measurements are attested and anchored on Base.
 - Free to list. No listing fee, no paid placement, no rights asked from server operators. Facts only: no server is endorsed.
 

@@ -1,6 +1,6 @@
 ---
 name: mcp-station
-description: Find remote MCP servers and check them before connecting. MCP Station measures every remote MCP server in the Official MCP Registry once a day (reachable, authentication, check success, response time, tool list, tool definition size) and records what changed (tools, schemas, descriptions, authentication, versions). Free, no key. Facts only, not a guarantee or recommendation.
+description: Check MCP servers before connecting, and see what changed in the servers you already use. Also finds servers by task. MCP Station measures every remote MCP server in the Official MCP Registry once a day (reachable, authentication, check success, response time, tool list, tool definition size) and records what changed (tools, schemas, descriptions, authentication, versions). Free, no key. Facts only, not a guarantee or recommendation.
 license: Free to use. Measurements may be used with attribution to MCP Station (mcpstation.net); see https://mcpstation.net/terms.html. Registry data is CC0.
 ---
 
@@ -8,6 +8,7 @@ license: Free to use. Measurements may be used with attribution to MCP Station (
 
 MCP Station is an independent directory of remote MCP servers listed in the Official MCP Registry.
 It connects to each server once a day, lists its tools (it never executes them) and keeps the results.
+Use it before connecting servers, and again later to see what changed in the servers you already use: tools added or removed, new destructive tools, schema, description, authentication and version changes.
 Servers never pay for placement, and Station asks no rights from them.
 
 ## Connect
